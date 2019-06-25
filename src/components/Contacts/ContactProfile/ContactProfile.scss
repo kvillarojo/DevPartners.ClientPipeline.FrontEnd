@@ -1,0 +1,91 @@
+.contact-profile {
+    width: 40%;
+    position: fixed;
+    background: #fff;
+    right: 0;
+    box-shadow: -3px 4px 8px -6px rgba(0,0,0,0.75);
+	top: 112px;
+	bottom: 0px;
+	
+	.profile-header{
+		background: #4e4e4e;
+    	height: 187px;
+
+		.profile-pic {
+		    padding-left: 67px;
+		    padding-top: 32px;
+		    width: 27%;
+		    float: left;
+		}
+
+		.profile-name{
+			font-size: 47px;
+		    font-weight: 500;
+		    width: 73%;
+		    float: right;
+		    margin-top: 58px;
+		    padding-left: 9px;
+		    color: #fff;
+		}
+	}
+
+	.profile-content {
+	    padding-top: 39px;
+	    padding-left: 71px;
+	    padding-right: 72px;
+	    padding-bottom: 25px;
+
+	    ul.prof-list {
+		    list-style: none;
+		    padding-left: 8px;
+		    padding-top: 40px;
+		    font-size: 23px;
+		    font-weight: 400;
+		}
+		.col-md-6.crm-list {
+		    padding-top: 21px;
+			
+			.contact-details-lists {
+			    display: -webkit-flex;  
+			    display: flex;
+			    margin-top: 16px;
+	    		font-weight: 500;
+			}
+
+			.contact-details-lists div {
+			  -webkit-flex: 1;   
+			  -ms-flex: 1;  
+			  flex: 1;
+			}
+
+		}
+
+		.list-label {
+		    color: gray;
+		    font-weight: 700;
+		}
+
+		.react-switch-handle {
+		    height: 15px !important;
+		    width: 15px !important;
+		    top: 7px !important;
+		    left: 7px !important;
+		}
+		.crm-switch {
+		    margin-bottom: -10px;
+		    margin-right: 8px;
+		}
+	}
+
+	.crm-prof-icons{
+		color: #007bff;
+	}
+
+	.crm-label {
+	    font-weight: 800;
+	    padding-left: 9px;
+	    padding-top: 0px;
+	    padding-right: 19px;
+	    margin-top: 12px;
+	}
+}
