@@ -1,0 +1,2 @@
+(window.webpackJsonp=window.webpackJsonp||[]).push([[12],{484:function(t,n,e){"use strict";e.r(n);var a=e(46),o=e(1),c=e.n(o),r=e(34);n.default=function(t){var n=t.component,e=(t.authentication,Object(a.a)(t,["component","authentication"]));return c.a.createElement(r.d,Object.assign({},e,{render:function(t){return e.auth?c.a.createElement(n,t):c.a.createElement(r.c,{to:{pathname:"/login",state:{from:t.location}}})}}))}}}]);
+//# sourceMappingURL=12.08b672e4.chunk.js.map

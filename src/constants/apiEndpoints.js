@@ -1,2 +1,0 @@
-export const API_BASE_URL = "API_CALL_SUCCESS";
-export const ENDPOINTS  = "API_CALL_FAILURE";
